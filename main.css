@@ -1,0 +1,60 @@
+ .container-class, .section .containers { 
+  width: 1200px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.section .containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .containers .navs-wrapper {
+  width: 35%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.section .containers .navs-wrapper .nav-card {
+  padding: 15px    25px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.section .containers .navs-wrapper .nav-card .title-nav {
+  font-weight: bold;
+}
+
+.section .containers .navs-wrapper .nav-card:hover {
+  color: #1bac91;
+}
+
+.section .containers .navs-wrapper .active {
+  -webkit-box-shadow: 0 0 10px grey;
+          box-shadow: 0 0 10px grey;
+}
+
+.section .containers .navs-wrapper .title-nav {
+  color: #1bac91;
+}
+
+.section .containers .item-content {
+  width: 65%;
+  padding: 50px;
+}
+
+.section .containers .item-content .single-content {
+  width: 100%;
+}
+
+.section .containers .item-content .single-content img {
+  width: 100%;
+}
+# sourceMappingURL=main.css.map 
